@@ -1,0 +1,152 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: Serif Arial;
+    line-height: 1.5em;
+    background: #555555;
+}
+
+header {
+    height: 100px;
+}
+
+header h1 {
+    margin: 0;
+    padding-top: 15px;
+}
+
+.story-menu{
+    position: fixed;
+    left: 30%;
+    top:1em;
+    text-align:center;
+}
+
+.story-menu ul{
+    display:inline-block;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.story-menu ul li{
+    background:#fff;
+    float:left;
+    border-right:1px solid #eee;
+    box-shadow:0 1px 1px rgba(0,0,0,0.1);
+    text-transform:uppercase;
+    color:#555;
+    font-weight:bolder;
+    transition:all 0.3s linear;
+}
+
+.story-menu a{
+    display:block;
+    padding:1em 2em;
+    color:inherit;
+    text-decoration:none;
+}
+
+.story-menu ul li:first-child{
+    border-radius: inherit;
+}
+
+.story-menu ul li:last-child{
+    border-right:none;
+    border-radius:0 10px 0;
+}
+
+.story-menu ul li:hover{
+    background:#eee;
+    color: #555555;
+}
+
+main {
+    padding-bottom: 10010px;
+    margin-bottom: -10000px;
+    float: left;
+    width: 100%;
+}
+
+nav {
+    padding-bottom: 10010px;
+    margin-bottom: -10000px;
+    float: left;
+    width: 230px;
+    margin-left: -230px;
+    background: #fff;
+}
+
+footer {
+    clear: left;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    padding: 4px 0;
+}
+
+#wrapper {
+    overflow: hidden;
+}
+
+#content {
+    margin-right: 230px; /* Same as 'nav' width */
+}
+
+.story {
+    margin: 15px; /* Padding for content */
+    margin-top: 0;
+}
+
+p {
+    color: #555;
+    font-family: georgia,"times new roman",times,serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul a {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.story .col-7{
+    margin-top: 1em;
+    float: left;
+}
+.story .col-7 a{
+    margin-right: 1em;
+}
+.story .col-7 img{
+    height: 250px;
+}
+.story .col-7 .title{
+    display: block;
+    color: #f44141;
+    text-align: center;
+}
+
+.col-7 a:hover, .next_page button:hover, nav ul a:hover{
+    background-color: #f44141;
+}
+.next_page{
+    text-align: center;
+}
+.next_page button{
+    height: 25px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
