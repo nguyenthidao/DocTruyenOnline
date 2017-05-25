@@ -3,7 +3,7 @@ body {
     padding:0;
     font-family: Serif Arial;
     line-height: 1.5em;
-    background: #696969;
+    background: #555555;
 }
 
 header {
@@ -32,7 +32,7 @@ nav ul li{
     border-right:1px solid #eee;
     box-shadow:0 1px 1px rgba(0,0,0,0.1);
     text-transform:uppercase;
-    color:#000000;
+    color:#555;
     font-weight:bolder;
 }
 
@@ -82,27 +82,8 @@ main {
     width: 100%;
 }
 
-.story-infor .row.picture .title{
-    transition: bottom 1s;
-}
-
-.story-infor .row.picture:hover .title{
-    bottom: 80px;
-}
-.story-infor .row.picture .introduction{
-    height: 80px;
-    position: absolute;
-    bottom: -80px;
-    background-color: #ffd400;
-    width: 100%;
-    transition: bottom 1s;
-    text-align: center;
-}
-.story-infor .row.picture:hover .introduction{
-    bottom: 0;
-}
-.story-infor .title{
-    color: #ffd400;
+.story-infor .row.title{
+    color: #f44141;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -115,6 +96,10 @@ main {
     border-bottom: 3px solid transparent;
     min-height: 100%;
     min-width: 100%;
+}
+
+.picture img:hover{
+    border-bottom-color: #f44141;
 }
 
 aside {
@@ -132,7 +117,7 @@ aside ul {
 }
 
 aside ul a {
-    color: #000000;
+    color: #555;
     text-decoration: none;
 }
 
@@ -146,7 +131,7 @@ aside h3:first-child{
 
 aside a:hover{
     background:#eee;
-    color: #000000;
+    color: #555555;
     text-decoration: none;
 }
 
@@ -162,7 +147,7 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    background: #ffd400;
+    background: #353535;
     text-align: center;
     padding: 4px 0;
 }
