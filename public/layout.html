@@ -8,6 +8,23 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet/less" href="/path/to/bootstrap.less">
     <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        @media only screen and (max-width : 480px) {
+            story-infor .picture:hover .title{
+                    bottom: 120px;
+                }
+
+                .story-infor .picture .introduction{
+                    height: 120px;
+                    
+                }
+
+                .story-infor .picture:hover .introduction{
+                    bottom: -40px;
+                }
+
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -22,11 +39,6 @@
                             <span class="icon-bar icon-bar-menu"></span>
                         </button>
                     </div>
-
-                    <div class="brand-centered brand-centered-menu">
-                        <a class="navbar-brand navbar-brand-menu" href="index.html"><img src="pic/8.jpg"/>Girl's world</a>
-                    </div>
-
                     <div id="navbar9" class="navbar-collapse collapse navbar-collapse-menu">
                         <ul class="nav navbar-nav navbar-left">
                             <li><a href="index.html">Home</a></li>
@@ -38,7 +50,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Categories<span class="caret"></span></a>
-                                <ul class="dropdown-menu" role="menu">
+                                <ul class="dropdown-menu categories" role="menu">
                                     <li><a href="#">Co Tich</a></li>
                                     <li><a href="#">Ngu Ngon</a></li>
                                     <li><a href="#">Kiem Hiep</a></li>
@@ -56,7 +68,7 @@
         <main>
             <div class="story-list">
                 <div class="row">
-                    <div class="story-infor col-lg-2 col-md-3 col-xs-12">
+                    <div class="story-infor col-lg-2 col-md-3 col-xs-6">
                         <div class="picture">
                             <a href="#i1"><img src="pic/2.jpg" /></a>
                             <div class="title">
@@ -67,7 +79,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="story-infor col-lg-2 col-md-3 col-xs-12">
+                    <div class="story-infor col-lg-2 col-md-3 col-xs-6">
                         <div class="picture">
                             <a href="#i1"><img src="pic/3.jpg" /></a>
                             <div class="title">
@@ -78,7 +90,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="story-infor col-lg-2 col-md-3 col-xs-12">
+                    <div class="story-infor col-lg-2 col-md-3 col-xs-6">
                         <div class="picture">
                             <a href="#i1"><img src="pic/4.jpg" /></a>
                             <div class="title">
@@ -89,7 +101,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="story-infor col-lg-2 col-md-3 col-xs-12">
+                    <div class="story-infor col-lg-2 col-md-3 col-xs-6">
                         <div class="picture">
                             <a href="#i1"><img src="pic/5.jpg" /></a>
                             <div class="title">
@@ -100,7 +112,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="story-infor col-lg-2 col-md-3 col-xs-12">
+                    <div class="story-infor col-lg-2 col-md-3 col-xs-6">
                         <div class="picture">
                             <a href="#i1"><img src="pic/6.jpg" /></a>
                             <div class="title">
@@ -111,7 +123,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="story-infor col-lg-2 col-md-3 col-xs-12">
+                    <div class="story-infor col-lg-2 col-md-3 col-xs-6">
                         <div class="picture">
                             <a href="#i1"><img src="pic/2.jpg" /></a>
                             <div class="title">
@@ -124,7 +136,7 @@
                     </div>
 
 
-                    <div class="story-infor col-lg-2 col-md-3 col-xs-12">
+                    <div class="story-infor col-lg-2 col-md-3 col-xs-6">
                         <div class="picture">
                             <a href="#i1"><img src="pic/3.jpg" /></a>
                             <div class="title">
@@ -135,7 +147,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="story-infor col-lg-2 col-md-3 col-xs-12">
+                    <div class="story-infor col-lg-2 col-md-3 col-xs-6">
                         <div class="picture">
                             <a href="#i1"><img src="pic/4.jpg" /></a>
                             <div class="title">
@@ -147,7 +159,7 @@
                         </div>
 
                     </div>
-                    <div class="story-infor col-lg-2 col-md-3 col-xs-12">
+                    <div class="story-infor col-lg-2 col-md-3 col-xs-6">
                         <div class="picture">
                             <a href="#i1"><img src="pic/5.jpg" /></a>
                             <div class="title">
@@ -158,7 +170,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="story-infor col-lg-2 col-md-3 col-xs-12">
+                    <div class="story-infor col-lg-2 col-md-3 col-xs-6">
                         <div class="picture">
                             <a href="#i1"><img src="pic/6.jpg" /></a>
                             <div class="title">
@@ -169,7 +181,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="story-infor col-lg-2 col-md-3 col-xs-12">
+                    <div class="story-infor col-lg-2 col-md-3 col-xs-6">
                         <div class="picture">
                             <a href="#i1"><img src="pic/7.jpg" /></a>
                             <div class="title">
@@ -180,7 +192,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="story-infor col-lg-2 col-md-3 col-xs-12">
+                    <div class="story-infor col-lg-2 col-md-3 col-xs-6">
                         <div class="picture">
                             <a href="#i1"><img src="pic/3.jpg" /></a>
                             <div class="title">
@@ -193,7 +205,7 @@
                     </div>
 
 
-                    <div class="story-infor col-lg-2 col-md-3 col-xs-12">
+                    <div class="story-infor col-lg-2 col-md-3 col-xs-6">
                         <div class="picture">
                             <a href="#i1"><img src="pic/2.jpg" /></a>
                             <div class="title">
@@ -204,7 +216,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="story-infor col-lg-2 col-md-3 col-xs-12">
+                    <div class="story-infor col-lg-2 col-md-3 col-xs-6">
                         <div class="picture">
                             <a href="#i1"><img src="pic/4.jpg" /></a>
                             <div class="title">
@@ -215,7 +227,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="story-infor col-lg-2 col-md-3 col-xs-12">
+                    <div class="story-infor col-lg-2 col-md-3 col-xs-6">
                         <div class="picture">
                             <a href="#i1"><img src="pic/5.jpg" /></a>
                             <div class="title">
@@ -226,7 +238,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="story-infor col-lg-2 col-md-3 col-xs-12">
+                    <div class="story-infor col-lg-2 col-md-3 col-xs-6">
                         <div class="picture">
                             <a href="#i1"><img src="pic/7.jpg" /></a>
                             <div class="title">
@@ -237,7 +249,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="story-infor col-lg-2 col-md-3 col-xs-12">
+                    <div class="story-infor col-lg-2 col-md-3 col-xs-6">
                         <div class="picture">
                             <a href="#i1"><img src="pic/6.jpg" /></a>
                             <div class="title">
@@ -248,7 +260,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="story-infor col-lg-2 col-md-3 col-xs-12">
+                    <div class="story-infor col-lg-2 col-md-3 col-xs-6">
                         <div class="picture">
                             <a href="#i1"><img src="pic/2.jpg" /></a>
                             <div class="title">

@@ -1,3 +1,4 @@
+
 body {
     margin:0;
     padding:0;
@@ -5,32 +6,30 @@ body {
     line-height: 1.5em;
     background: #696969;
 }
-@media (min-width: 576px) {
-    body{
-        font-size: 10px;
-    }
+
+//* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
 }
 
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
 
-@media (min-width: 768px) {
-    body{
-        font-size: 14px;
-        line-height: 14px;
-    }
 }
 
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
 
-@media (min-width: 992px) {
-    body{
-        font-size: 15px;
-        line-height: 15px;
-    }
 }
 
-@media (min-width: 1200px) {
-    body{
-        font-size: 16px;
-    }
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
 }
 
 header {
@@ -46,25 +45,11 @@ header {
     width: 100%;
     padding: 0;
     z-index: 2;
-    font-size: 1.17em;
+    font-size: 1em;
 }
 
 .container-menu .container-fluid-menu{
     background-color: #ffd400;
-}
-
-.container-menu .brand-centered-menu {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
-}
-
-.container-menu .brand-centered-menu .navbar-brand-menu {
-    display: flex;
-    align-items: center;
 }
 
 .navbar-toggle-menu {
@@ -88,7 +73,7 @@ header {
 
 nav a{
 display:block;
-padding:1em 2em;
+padding:10px 10px;
 color:inherit;
 text-decoration: none;
 }
@@ -102,8 +87,7 @@ main {
     width: 96%;
     margin-left: 2%;
     margin-right: 2%;
-    font-size: 2em;
-    line-height: 1em;
+    font-size: 1em;
 }
 
 .story-infor{
@@ -164,6 +148,7 @@ main {
     width: 100%;
     margin-bottom: 7px;
     text-align: center;
+    font-size: 1em;  
 }
 
 .next_page button{
@@ -178,10 +163,12 @@ footer {
     background: #ffd400;
     text-align: center;
     padding: 4px 0;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
-
+.categories li a:hover{
+    background-color: #ffd400;
+}
 
 
 
